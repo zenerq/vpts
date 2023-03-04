@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>VPTS OSL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="/css/main.css"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="images/prb.svg" />
+    <script src="main.js"></script>
+  </head>
+  <body onload="startTime()">
+    <div id="blackBar">
+      <!-- <div class="site-logo">
+        <img src="images/logo.png" alt="logo" width="75" height="77" />
+      </div> -->
+      <!-- <div class="site-name">
+        <h1>Open Source Lab</h1>
+      </div> -->
+      <div id="txt"></div>
+    </div>
+
+    <nav>
+      <ul>
+        <li onclick="location.href='index.html'">
+          <div class="home-icon">
+            <div class="roof">
+              <div class="roof-edge"></div>
+            </div>
+            <div class="front"></div>
+          </div>
+        </li>
+        <li onclick="location.href='projects.html'">
+          <div class="work-icon">
+            <div class="paper"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+          </div>
+        </li>
+        <li onclick="location.href='about.html'">
+          <div class="about-icon">
+            <div class="head">
+              <div class="eyes"></div>
+              <div class="beard"></div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="mail-icon">
+            <div class="mail-base">
+              <div class="mail-top"></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <img src="images/logo.png" id="bg" width="144" height="147" alt="" />
+    <form>
+      <div>
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/mail-letter-offer-256.png"
+          alt="icon"
+        />
+      </div>
+      <input type="text" placeholder="Name (required)" required />
+      <input type="text" placeholder="E-Mail (required)" required />
+      <input type="text" placeholder="Topic (required)" required />
+      <textarea placeholder="Subject (required)" required></textarea>
+      <input type="submit" value="Send" />
+    </form>
+  </body>
+</html>
